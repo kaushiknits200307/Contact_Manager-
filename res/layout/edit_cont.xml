@@ -1,0 +1,150 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:padding="2dp">
+     <TextView
+        android:id="@+id/regtextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="20dp" >
+    </EditText>
+   </LinearLayout>
+  <LinearLayout 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent" 
+      android:padding="2dp" 
+      android:orientation="horizontal">
+ <TextView
+        android:id="@+id/regtextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Phone"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="serif" />
+<EditText 
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent" 
+    android:ems="10" 
+    android:inputType="phone"
+    android:id="@+id/phone2" 
+     android:padding="20dp"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:padding="2dp">
+ <TextView
+        android:id="@+id/regtextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="serif" />
+    <EditText
+        android:id="@+id/email2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" 
+     android:padding="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical"
+        android:padding="2dp">
+ <TextView
+        android:id="@+id/regtextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Address"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="serif" />
+    <EditText
+        android:id="@+id/street2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress" 
+     android:padding="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:padding="2dp">
+    <TextView
+        android:id="@+id/regtextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Note"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="serif" />
+    <EditText
+        android:id="@+id/note2"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/submit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="save2"
+            android:text="Update" />
+
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+    </LinearLayout>
+        
+
+    </LinearLayout>
+
+</LinearLayout>
+    
+    
+</ScrollView>
